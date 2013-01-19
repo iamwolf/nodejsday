@@ -1,7 +1,12 @@
 {
-  "name": "HelloWorld",
+  "name": "application-name",
   "version": "0.0.1",
-  "description": "",
-  "main": "./hellonode.js",
-  "engines": { "node": ">= 0.6.0" }
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "3.0.5",
+    "jade": "*"
+  }
 }
