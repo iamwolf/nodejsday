@@ -3,5 +3,5 @@
   "version": "0.0.1",
   "description": "",
   "main": "./hellonode.js",
-  "engines": { "node": ">= 0.9" }
+  "engines": { "node": ">= 0.6.0" }
 }
